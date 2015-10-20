@@ -7,7 +7,6 @@
 //
 
 #import "PPTranslator.h"
-#import "PPPinyinData.h"
 
 @implementation NSString (PPTranslator)
 
@@ -58,7 +57,8 @@
 }
 
 - (void)setup {
-    self.pinyinMapper = kPPPinyinData;
+    NSString* file = [[NSBundle mainBundle] pathForResource:@"PPPinyin" ofType:@"plist"];
+    self.pinyinMapper = [NSDictionary dictionaryWithContentsOfFile:file];
 }
 @end
 

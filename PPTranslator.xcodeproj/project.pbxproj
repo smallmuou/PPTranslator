@@ -16,6 +16,7 @@
 		E489E99D1BD5D98A006187F5 /* PPTranslatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E489E99C1BD5D98A006187F5 /* PPTranslatorTests.m */; };
 		E489E9A81BD5D98A006187F5 /* PPTranslatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E489E9A71BD5D98A006187F5 /* PPTranslatorUITests.m */; };
 		E4C30ADE1BD60AB10069170F /* PPTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C30ADD1BD60AB10069170F /* PPTranslator.m */; settings = {ASSET_TAGS = (); }; };
+		E4FE32651BD61BD1007329D8 /* PPPinyin.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4FE32641BD61BD1007329D8 /* PPPinyin.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +53,9 @@
 		E489E9A31BD5D98A006187F5 /* PPTranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPTranslatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E489E9A71BD5D98A006187F5 /* PPTranslatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPTranslatorUITests.m; sourceTree = "<group>"; };
 		E489E9A91BD5D98A006187F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4C30ADB1BD60AB10069170F /* PPPinyinData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPinyinData.h; sourceTree = "<group>"; };
 		E4C30ADC1BD60AB10069170F /* PPTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTranslator.h; sourceTree = "<group>"; };
 		E4C30ADD1BD60AB10069170F /* PPTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTranslator.m; sourceTree = "<group>"; };
+		E4FE32641BD61BD1007329D8 /* PPPinyin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PPPinyin.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +149,7 @@
 		E4C30ADA1BD60AB10069170F /* PPTranslator */ = {
 			isa = PBXGroup;
 			children = (
-				E4C30ADB1BD60AB10069170F /* PPPinyinData.h */,
+				E4FE32641BD61BD1007329D8 /* PPPinyin.plist */,
 				E4C30ADC1BD60AB10069170F /* PPTranslator.h */,
 				E4C30ADD1BD60AB10069170F /* PPTranslator.m */,
 			);
@@ -261,6 +262,7 @@
 				E489E9921BD5D98A006187F5 /* LaunchScreen.storyboard in Resources */,
 				E489E98F1BD5D98A006187F5 /* Assets.xcassets in Resources */,
 				E489E98D1BD5D98A006187F5 /* Main.storyboard in Resources */,
+				E4FE32651BD61BD1007329D8 /* PPPinyin.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
