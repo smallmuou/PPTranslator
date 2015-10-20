@@ -15,7 +15,7 @@
 		E489E9921BD5D98A006187F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E489E9901BD5D98A006187F5 /* LaunchScreen.storyboard */; };
 		E489E99D1BD5D98A006187F5 /* PPTranslatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E489E99C1BD5D98A006187F5 /* PPTranslatorTests.m */; };
 		E489E9A81BD5D98A006187F5 /* PPTranslatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E489E9A71BD5D98A006187F5 /* PPTranslatorUITests.m */; };
-		E489E9B81BD5DADD006187F5 /* PPTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E489E9B71BD5DADD006187F5 /* PPTranslator.m */; settings = {ASSET_TAGS = (); }; };
+		E4C30ADE1BD60AB10069170F /* PPTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C30ADD1BD60AB10069170F /* PPTranslator.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +52,9 @@
 		E489E9A31BD5D98A006187F5 /* PPTranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPTranslatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E489E9A71BD5D98A006187F5 /* PPTranslatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPTranslatorUITests.m; sourceTree = "<group>"; };
 		E489E9A91BD5D98A006187F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E489E9B61BD5DADD006187F5 /* PPTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTranslator.h; sourceTree = "<group>"; };
-		E489E9B71BD5DADD006187F5 /* PPTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTranslator.m; sourceTree = "<group>"; };
-		E4C30AD91BD5FF3C0069170F /* PPPinyinData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPPinyinData.h; sourceTree = "<group>"; };
+		E4C30ADB1BD60AB10069170F /* PPPinyinData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPinyinData.h; sourceTree = "<group>"; };
+		E4C30ADC1BD60AB10069170F /* PPTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTranslator.h; sourceTree = "<group>"; };
+		E4C30ADD1BD60AB10069170F /* PPTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTranslator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 		E489E9811BD5D98A006187F5 /* PPTranslator */ = {
 			isa = PBXGroup;
 			children = (
-				E489E9B51BD5D9EE006187F5 /* Classes */,
+				E4C30ADA1BD60AB10069170F /* PPTranslator */,
 				E489E9851BD5D98A006187F5 /* AppDelegate.h */,
 				E489E9861BD5D98A006187F5 /* AppDelegate.m */,
 				E489E9881BD5D98A006187F5 /* ViewController.h */,
@@ -145,14 +145,14 @@
 			path = PPTranslatorUITests;
 			sourceTree = "<group>";
 		};
-		E489E9B51BD5D9EE006187F5 /* Classes */ = {
+		E4C30ADA1BD60AB10069170F /* PPTranslator */ = {
 			isa = PBXGroup;
 			children = (
-				E489E9B61BD5DADD006187F5 /* PPTranslator.h */,
-				E489E9B71BD5DADD006187F5 /* PPTranslator.m */,
-				E4C30AD91BD5FF3C0069170F /* PPPinyinData.h */,
+				E4C30ADB1BD60AB10069170F /* PPPinyinData.h */,
+				E4C30ADC1BD60AB10069170F /* PPTranslator.h */,
+				E4C30ADD1BD60AB10069170F /* PPTranslator.m */,
 			);
-			path = Classes;
+			path = PPTranslator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +288,7 @@
 				E489E98A1BD5D98A006187F5 /* ViewController.m in Sources */,
 				E489E9871BD5D98A006187F5 /* AppDelegate.m in Sources */,
 				E489E9841BD5D98A006187F5 /* main.m in Sources */,
-				E489E9B81BD5DADD006187F5 /* PPTranslator.m in Sources */,
+				E4C30ADE1BD60AB10069170F /* PPTranslator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
